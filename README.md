@@ -1,7 +1,7 @@
 # Password Manager
 
 This Password Manager is built using HTML, CSS, and JavaScript. It allows users to view, add, edit, copy, and delete their passwords securely.
-
+(The password for the file is 123456 currently but it can be modified later).
 ## Features
 
 - View all saved passwords

@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    color: white; /* Change text color to white */
+    color: whitesmoke; /* Change text color to white */
 }
 
 body {
@@ -41,7 +41,7 @@ ul > li {
 }
 
 ul > li:hover{
-    color: white;
+    color: black;
 }
 
 table, td, tr{
@@ -53,16 +53,24 @@ table, td, tr{
 .container {
     max-width: 80vw;
     margin: 23px auto;
+    align-items: center;
 }
 
 h1, h2, h3 {
     margin: 23px 0;
 }
 
+.centerbox {
+    /* align-items: center;
+    justify-content: center; */
+    color: black;
+    margin-left: 40%;
+}
+
 .btn{
     padding: 8px 17px;
     background: black;
-    color: white;
+    color: blueviolet;
     font-weight: 900;
     border: 2px solid gray;
     border-radius: 8px;
@@ -73,7 +81,7 @@ h1, h2, h3 {
 .btnsm{ 
     padding: 8px 17px;
     background: black;
-    color: white;
+    color: blueviolet;
     font-weight: 900;
     border: 2px solid gray;
     border-radius: 8px; 
@@ -90,4 +98,17 @@ img{
 
 #alert{
     display: none;
+}
+.username{
+    color: black;
+    width: 200px;
+}
+.website{
+    color: black;
+    width: 200px;
+}
+.password{
+    color:black;
+    width: 200px;
+    
 }

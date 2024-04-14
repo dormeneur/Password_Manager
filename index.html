@@ -65,27 +65,26 @@
                 <!-- Table rows will be dynamically populated here -->
             </table>
         </div>
+         <h2>Add a Password</h2>
+        <div class="centerbox">
+           
+            <form action="/submit" method="post">
 
-        <h2>Add a Password</h2>
-        <form action="/submit" method="post">
+                <!-- Text input for website -->
+                <input class = "website" type="text" id="website" placeholder="website" name="website" required>
+                <br><br>
 
-            <!-- Text input for website -->
-            <label for="website">Website:</label>
-            <input type="text" id="website" name="website" required>
-            <br><br>
+                <!-- Text input for username -->
+                <input class = "username"type="text" id="username" placeholder="username" name="username" required>
+                <br><br>
 
-            <!-- Text input for username -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br><br>
-
-            <!-- Password input -->
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-            <!-- Submit button -->
-            <button class="btn" type="submit">Submit</button>
-        </form>
+                <!-- Password input -->
+                <input class="password" id="password" placeholder="password" name="password" required>
+                <br>
+                <!-- Submit button -->
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

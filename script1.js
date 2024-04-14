@@ -5,8 +5,13 @@ const passwordInput = document.getElementById('password');
 loginForm.addEventListener('submit', (e) => {
 	e.preventDefault();
 	if (usernameInput.value === 'admin' && passwordInput.value === 'password') {
-		alert('Login successful!');
+		alert("index.html");
+
 	} else {
 		alert('Invalid username or password');
 	}
-});
+}
+// let a = prompt("Enter your email");
+// if(a === "abcd@gmail.com"){
+
+// }

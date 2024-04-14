@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('background.jpeg'); /* Replace 'background-image.jpg' with the path to your background image */
+    background-image: url('blur.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
     background-size: cover;
     backdrop-filter: blur(5px); /* Add blur effect to the background */
 }
@@ -55,4 +55,9 @@ button {
 /* Style for the login button on hover */
 button:hover {
     background-color: #0056b3;
+}
+
+/* Style for the "Enter your master key" text */
+h1 {
+    color: white; /* Set the font color to white */
 }

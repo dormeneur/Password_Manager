@@ -4,8 +4,8 @@ const passwordInput = document.getElementById('password');
 
 loginForm.addEventListener('submit', (e) => {
 	e.preventDefault();
-	if (usernameInput.value === 'admin' && passwordInput.value === 'password') {
-		alert("index.html");
+	if (usernameInput.value == 'admin' && passwordInput.value == 123456) {
+		alert("Accepted");
 
 	} else {
 		alert('Invalid username or password');

@@ -20,10 +20,10 @@
 /* Style for the login form */
 form {
     width: 300px;
-    border: 1px solid blue;
+    border: 1px solid rgb(191, 96, 238);
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(202, 10, 10, 0.8); /* Set background color with transparency */
+    background-color: rgba(0, 0, 0, 0.8); /* Set background color with transparency */
 }
 
 /* Style for the form groups (input fields and labels) */

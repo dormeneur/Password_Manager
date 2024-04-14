@@ -18,23 +18,23 @@ This Password Manager is built using HTML, CSS, and JavaScript. It allows users 
 
 ## Usage
 
-### View Passwords
+#### `View Passwords`
 
 All your saved passwords will be displayed in a table. You can view the username, password, website, and date added for each password.
 
-### Add Passwords
+#### `Add Passwords`
 
 To add a new password, click on the "Add Password" button. Fill in the required fields and click "Save" to add the new password to your manager.
 
-### Edit Passwords
+#### `Edit Passwords`
 
 To edit a password, click on the "Edit" button for the password you want to change. Make your changes and click "Save" to update the password.
 
-### Copy Passwords
+#### `Copy Passwords`
 
 To copy a password, click on the "Copy" button for the username or password you want to copy. The value will be copied to your clipboard, ready for pasting.
 
-### Delete Passwords
+#### `Delete Passwords`
 
 To delete a password, click on the "Delete" button for the password you want to remove. A confirmation dialog will appear to prevent accidental deletions.
 

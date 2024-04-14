@@ -1,68 +1,93 @@
-/* Reset default margin and padding */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white; /* Change text color to white */
 }
 
-/* Center the login container vertically and horizontally */
-.login-container {
+body {
+    background-image: url('blur.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Add transparency to blend with the background */
+    padding: 12px 3px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('blur.jpg'); /* Replace 'background.jpeg' with the path to your background image */
-    background-size: cover;
-    position: relative;
+    justify-content: space-between;
 }
 
-/* Apply a semi-transparent overlay */
-.login-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.6); /* Adjust opacity as needed */
-}
-
-/* Style for the login form */
-form {
-    width: 300px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
-}
-
-/* Style for the form groups (input fields and labels) */
-.form-group {
-    margin-bottom: 15px;
-}
-
-/* Style for inputs */
-input {
-    width: calc(100% - 10px); /* Adjust input width */
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-/* Style for the login button */
-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
     cursor: pointer;
 }
 
-/* Style for the login button on hover */
-button:hover {
-    background-color: #0056b3;
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+}
+
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1, h2, h3 {
+    margin: 23px 0;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.btnsm{ 
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
 }

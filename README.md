@@ -1,4 +1,8 @@
 # Password Manager
+![image](https://github.com/dormeneur/Password_Manager/assets/141204927/395c4e0e-4220-4757-97bf-d82438262794)
+![image](https://github.com/dormeneur/Password_Manager/assets/141204927/d15bd02c-5925-4e08-bb89-7b8b3d037f3a)
+
+
 
 This Password Manager is built using HTML, CSS, and JavaScript. It allows users to view, add, edit, copy, and delete their passwords securely.
 (The password for the file is 123456 currently but it can be modified later).
